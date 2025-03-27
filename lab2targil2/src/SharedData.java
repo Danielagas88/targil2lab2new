@@ -1,3 +1,6 @@
+/**
+ * 
+ */
 public class SharedData 
 {
 	private int [] array;
@@ -5,6 +8,11 @@ public class SharedData
 	private boolean flag;
 	private final int b;
 	
+	/**
+	 * @param array
+	 * @param b
+	 * @return 
+	 */
 	public SharedData(int[] array, int b) {
 		
 		this.array = array;
@@ -21,6 +29,10 @@ public class SharedData
 		this.winArray = winArray;
 	}
 
+	/**
+	 * 
+	 * @return the array 
+	 */
 	public int[] getArray() 
 	{
 		return array;
